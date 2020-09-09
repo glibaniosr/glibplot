@@ -12,21 +12,20 @@ to be supplied as a command line argument with all the desired information (see 
 All the options can be viewed using the help from the command line:
 
 > plt_plot.py -h
->
+
 >usage: plt_plot.py [-h] [-i I] [-o O] [-n N] [-l L] [-xi XI] [-xf XF] [-ym YM] [-c C] [-s S] [--show_colors] [--show_styles]  
+
+>optional arguments: 
 >
->plt_plot uses the Python3 matplotlib to plot graphs from two column text files.
->
->optional arguments:  
 >  -h, --help     show this help message and exit  
->  -i I           Data files composed of two columns, x and y.  
->  -o O           Output .png plot file.  
->  -n N           Title of the picture.  
->  -l L           Label file. (Leave it blank for no labels)  
->  -xi XI         Initial x value. (Leave it blank to take all range of values from file)  
->  -xf XF         Final x value. (Leave it blank to take all range of values from file)  
->  -ym YM         y axis maximum value.  
->  -c C           Color Map Style (Use plt_plot --show_colors for options)  
->  -s S           Plot Style (Available options with "matplotlib.style.available")  
+>  -i           Data files composed of two columns, x and y and separated by commas.  
+>  -o           Output .png plot file.  
+>  -n           Title of the picture.  
+>  -l           Label file. (Leave it blank for no labels)  
+>  -xi         Initial x value. (Leave it blank to take all range of values from file)  
+>  -xf         Final x value. (Leave it blank to take all range of values from file)  
+>  -ym         y axis maximum value.  
+>  -c           Color Map Style (Use plt_plot --show_colors for options)  
+>  -s           Plot Style (Available options with "matplotlib.style.available")  
 >  --show_colors  Show Available Color Map Styles  
 >  --show_styles  Show Available Plot Styles  
