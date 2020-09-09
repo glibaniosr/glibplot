@@ -17,7 +17,8 @@ All the options can be viewed using the help from the command line:
 
 Optional arguments: 
 
--h, --help      show this help message and exit  
+-h, --help
+* show this help message and exit  
 -i              Data files composed of two columns, x and y and separated by commas.  
 -o              Output .png plot file.  
 -n              Title of the picture.  
