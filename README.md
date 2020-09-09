@@ -41,7 +41,7 @@ Initial x value. (Leave it blank to take all range of values from file)
 Final x value. (Leave it blank to take all range of values from file)  
 
 >-ym  
-y axis maximum value.  
+y axis maximum value. (Leave it blank for automatic selection using maximum value) 
 
 >-c  
 Color Map Style (Use plt_plot --show_colors for options)  

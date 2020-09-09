@@ -44,7 +44,7 @@ parser.add_argument('-n', help='Title of the picture.', default='')
 parser.add_argument('-l', help='Label file. (Leave it blank for no labels')
 parser.add_argument('-xi', help='Initial x value. (Leave it blank to take all range of values from file)')
 parser.add_argument('-xf', help='Final x value. (Leave it blank to take all range of values from file)')
-parser.add_argument('-ym', help='y axis maximum value.')
+parser.add_argument('-ym', help='y axis maximum value. (Leave it blank for automatic selection using maximum value)')
 # Spectra format arguments
 #parser.add_argument('-i', action='store_true', help='Iteractive mode')
 parser.add_argument('-c', default='twilight', help=f'Color Map Style (Use plt_plot --show_colors for options)')
