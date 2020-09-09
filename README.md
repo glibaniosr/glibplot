@@ -9,15 +9,17 @@ and color styles taken from *matplotlib* and its objective is to simplify the pl
 The default behaviour is to create a figure without any labels or title, but you can chose these parameters creating an text file
 to be supplied as a command line argument with all the desired information (see the labels_format.txt and the examples).
 
+Usage: 
+
+>plt_plot.py [-h] [-i I] [-o O] [-n N] [-l L] [-xi XI] [-xf XF] [-ym YM] [-c C] [-s S] [--show_colors] [--show_styles] 
+
 All the options can be viewed using the help from the command line:
 
-> plt_plot.py -h
-
->usage: plt_plot.py [-h] [-i I] [-o O] [-n N] [-l L] [-xi XI] [-xf XF] [-ym YM] [-c C] [-s S] [--show_colors] [--show_styles]  
+> plt_plot.py -h 
 
 Optional arguments: 
 
->-h,        
+>-h, --help        
 Show this help message and exit  
 
 >-i                
