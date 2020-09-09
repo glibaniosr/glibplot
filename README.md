@@ -15,17 +15,17 @@ All the options can be viewed using the help from the command line:
 
 >usage: plt_plot.py [-h] [-i I] [-o O] [-n N] [-l L] [-xi XI] [-xf XF] [-ym YM] [-c C] [-s S] [--show_colors] [--show_styles]  
 
->optional arguments: 
->
->  -h, --help     show this help message and exit  
->  -i           Data files composed of two columns, x and y and separated by commas.  
->  -o           Output .png plot file.  
->  -n           Title of the picture.  
->  -l           Label file. (Leave it blank for no labels)  
->  -xi         Initial x value. (Leave it blank to take all range of values from file)  
->  -xf         Final x value. (Leave it blank to take all range of values from file)  
->  -ym         y axis maximum value.  
->  -c           Color Map Style (Use plt_plot --show_colors for options)  
->  -s           Plot Style (Available options with "matplotlib.style.available")  
->  --show_colors  Show Available Color Map Styles  
->  --show_styles  Show Available Plot Styles  
+Optional arguments: 
+
+-h, --help      show this help message and exit  
+-i              Data files composed of two columns, x and y and separated by commas.  
+-o              Output .png plot file.  
+-n              Title of the picture.  
+-l              Label file. (Leave it blank for no labels)  
+-xi             Initial x value. (Leave it blank to take all range of values from file)  
+-xf             Final x value. (Leave it blank to take all range of values from file)  
+-ym             y axis maximum value.  
+-c              Color Map Style (Use plt_plot --show_colors for options)  
+-s              Plot Style (Available options with "matplotlib.style.available")  
+--show_colors   Show Available Color Map Styles  
+--show_styles   Show Available Plot Styles  
