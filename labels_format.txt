@@ -1,0 +1,5 @@
+# Example of file with plot details for plt_plot
+plot_title = Plot Title
+x_title = X Axis Unit
+y_title = Y Axis Unit
+data_labels = data1 data2
