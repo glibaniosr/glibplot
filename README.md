@@ -17,16 +17,38 @@ All the options can be viewed using the help from the command line:
 
 Optional arguments: 
 
--h, --help
-* show this help message and exit  
--i              Data files composed of two columns, x and y and separated by commas.  
--o              Output .png plot file.  
--n              Title of the picture.  
--l              Label file. (Leave it blank for no labels)  
--xi             Initial x value. (Leave it blank to take all range of values from file)  
--xf             Final x value. (Leave it blank to take all range of values from file)  
--ym             y axis maximum value.  
--c              Color Map Style (Use plt_plot --show_colors for options)  
--s              Plot Style (Available options with "matplotlib.style.available")  
---show_colors   Show Available Color Map Styles  
---show_styles   Show Available Plot Styles  
+>-h,        
+Show this help message and exit  
+
+>-i                
+Data files composed of two columns, x and y and separated by commas.  
+
+>-o  
+Output .png plot file.  
+
+>-n  
+Title of the picture.  
+
+>-l  
+Label file. (Leave it blank for no labels)  
+
+>-xi  
+Initial x value. (Leave it blank to take all range of values from file)  
+
+>-xf  
+Final x value. (Leave it blank to take all range of values from file)  
+
+>-ym  
+y axis maximum value.  
+
+>-c  
+Color Map Style (Use plt_plot --show_colors for options)  
+
+>-s  
+Plot Style (Available options from "matplotlib.style.available")  
+
+>--show_colors  
+Show Available Color Map Styles  
+
+>--show_styles  
+Show Available Plot Styles  
