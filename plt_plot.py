@@ -126,7 +126,7 @@ for idx,inp_name in enumerate(data_files):
 x_i = min(x_values)
 x_f = max(x_values)
 y_i = min(y_values)
-y_f = max(y_values)
+y_f = max(y_values)*1.2
 if args.xi:
 	x_i = float(args.xi)
 	x_f = float(args.xf)

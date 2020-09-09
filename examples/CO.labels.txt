@@ -3,4 +3,4 @@ plot_title = C 1s XAS
 x_title = Energy (eV)
 y_title = Intensity (a.u.)
 # Data labels: if a label has space on it, place it between quotes
-data_labels = CO(g), CO Ru(0001)
+data_labels = CO(g), CO/Ru(0001)
