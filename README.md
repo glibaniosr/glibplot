@@ -6,7 +6,7 @@ Python script that uses matplotlib to easily create plots from txt files with tw
 plt_plot needs only one or more text files containing x and y values for plot generation. It has many different options of plot
 and color styles taken from *matplotlib* and its objective is to simplify the plotting of graphs in a professional way. 
 
-The default behaviour is to create a figure without any labels or title, but you can chose these parameters creating an text file
+The default behavior is to create a figure without any labels or title, but you can choose these parameters creating an text file
 to be supplied as a command line argument with all the desired information (see the labels_format.txt and the examples).
 
 Usage: 
