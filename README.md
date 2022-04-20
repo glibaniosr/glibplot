@@ -1,4 +1,4 @@
-# plt_plot
+# glibplot
 Python script that uses matplotlib to easily create plots from txt files with two columns of x and y values.
 
 ## Usage
