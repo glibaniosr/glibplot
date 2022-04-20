@@ -3,7 +3,7 @@ Python script that uses matplotlib to easily create plots from txt files with tw
 
 ## Usage
 
-plt_plot needs only one or more text files containing x and y values for plot generation. It has many different options of plot
+plot needs only one or more text files containing x and y values for plot generation. It has many different options of plot
 and color styles taken from *matplotlib* and its objective is to simplify the plotting of graphs in a professional way. 
 
 The default behavior is to create a figure without any labels or title, but you can choose these parameters creating an text file
@@ -11,11 +11,11 @@ to be supplied as a command line argument with all the desired information (see 
 
 Usage: 
 
->plt_plot.py [-h] [-i I] [-o O] [-n N] [-l L] [-xi XI] [-xf XF] [-ym YM] [-c C] [-s S] [--show_colors] [--show_styles] 
+> plot.py [-h] [-i I] [-o O] [-n N] [-l L] [-xi XI] [-xf XF] [-ym YM] [-c C] [-s S] [--show_colors] [--show_styles] 
 
 All the options can be viewed using the help from the command line:
 
-> plt_plot.py -h 
+> plot.py -h 
 
 Optional arguments: 
 
@@ -44,7 +44,7 @@ Final x value. (Leave it blank to take all range of values from file)
 y axis maximum value. (Leave it blank for automatic selection using maximum value) 
 
 >-c  
-Color Map Style (Use plt_plot --show_colors for options)  
+Color Map Style (Use plot --show_colors for options)  
 
 >-s  
 Plot Style (Available options from "matplotlib.style.available")  
